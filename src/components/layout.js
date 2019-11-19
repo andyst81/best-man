@@ -25,6 +25,7 @@ const Layout = ({ children }) => {
 
   return (
     <>
+    <script src="https://kit.fontawesome.com/763c737add.js" crossorigin="anonymous"></script>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -36,8 +37,8 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()}, Built with
-          {` `}
+          © {new Date().getFullYear()} Built with <i class="fas fa-heart" color="red"></i>
+          {` and `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>
       </div>

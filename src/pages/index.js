@@ -10,6 +10,13 @@ const IndexPage = () => (
     <SEO title="Home" />
     <img src="https://images.unsplash.com/photo-1498429152472-9a433d9ddf3b?ixlib
     =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960" alt="Speech" />
+    <p>So you’re going to a wedding and you have to make a speech, but you sure
+    as hell know that you don’t want it to be a boring old speech like you know
+    everyone else is going to make. You want people to remember your speech for
+    the right reasons. As best man, making a memorable speech and making people
+    laugh is how people will remember your performance. Here you will find best
+    man speech tips to ensure you get the best result on the day.
+    </p>
     <p>As the best man, you are an essential part of the wedding; it is your
     responsibility to throw the perfect bachelor party, on the morning of the
     wedding you are the one who makes sure the groom is looking sharp, you'll
@@ -102,16 +109,16 @@ const IndexPage = () => (
     <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib
     =rb-1.2.1&auto=format&fit=crop&w=960" alt="Toast"/>
     <section class="ideas">
-    <h5>Longer Speech Ideas</h5>
-    <blockquote>Thanks to all of you for coming today and sharing this special
+    <h3>Longer Speech Ideas</h3>
+    <i class="fal fa-quote-left"></i><blockquote>Thanks to all of you for coming today and sharing this special
     occasion with Jane and Tom. Tom and I have been friends for years and I am
     so happy to see him marry such a wonderful woman. Ever since Tom met Jane,
     I’ve never seen one without the other. Their love for each other has only
     grown stronger even during tough times. Thank you, Tom, for being such a
     good friend. I wish you and Jane the best of everything as you share long
     and happy lives. Cheers!
-    </blockquote>
-    <blockquote>Now it is my great honor and privilege to make the first toast
+    </blockquote><i class="fal fa-quote-right"></i>
+    <i class="fal fa-quote-left"></i><blockquote>Now it is my great honor and privilege to make the first toast
     to Arnold and Vanessa as husband and wife. While some people know that
     Arnold and I went to high school and college together, few are aware that
     we first met while playing Little League baseball in grade school. Arnold
@@ -127,17 +134,17 @@ const IndexPage = () => (
     But seriously, I think he’s made a much better choice in Vanessa. Let us
     toast them and wish them a long life together filled with love and laughter.
     May their joys be many and their sadnesses few. Congratulations!
-    </blockquote>
-    <blockquote>After 25 years of sibling rivalry, you can see that my brother
+    </blockquote><i class="fal fa-quote-right"></i>
+    <i class="fal fa-quote-left"></i><blockquote>After 25 years of sibling rivalry, you can see that my brother
     has finally figured out who the best man really is. I wish James and
     Jennifer all the best now and forever. As you go through life together,
     always love each other, respect each other and be there for each other.
     Remember to say “I’m sorry” when you mess up and never go to bed angry.
     Separately, you’re both wonderful people, but together you take life to a
     new level. I love you both. Congratulations!
-    </blockquote>
+    </blockquote><i class="fal fa-quote-right"></i>
 
-    <h5>Short and Sweet Speech Ideas</h5>
+    <h3>Short and Sweet Speech Ideas</h3>
     <p>Even with the help of these free best man speeches, you may be nervous
     about speaking in front of a crowd. Maybe mixing and matching some of these
     short and sweet best man speeches will help you conquer your stage fright.
@@ -176,30 +183,21 @@ const IndexPage = () => (
     two words for you: don’t be. You don’t have to be a world renowned writer
     to write a memorable wedding speech. If you don’t know where to start,
     reread the tips, guidelines and templates above. There should be something
-    to get you inspired.
+    to get you inspired. Enter your details below to receive a free printable
+    pdf version of this page for future reference.
     </p>
-    <p>If that isn't enough, we have a more in depth, FREE, 10 day email course
-    full of tips, guidelines, more sample speeches and more info on how to
-    carry out all of your best man duties flawlessly. Simply enter your email
-    below to get started.
+    <p>If that isn't enough, we have a more in depth, 30 page book on how to write
+    the perfect best mans's speech. This book is full of jokes, story ideas,
+    tips, guidelines, and many more sample speeches and more info on how to
+    carry out your best man duties flawlessly.
     </p>
-
-    we offer a you can get access to a bumper back of best man speech tips
-    right here. The pack contains a step by step guide to writing your own best
-    man speech. It also contains 25 excellent speech scripts, over 100 toasts,
-    jokes and one liners and tips on how to deliver your speech confidently.
-    On the day when it's time to stand up and say “I’d like to propose a toast”,
+    <p>On the day when it's time to stand up and say “I’d like to propose a toast”,
     you’ll be confident. You'll know that you’re about to put a tear in every
-    eye in your audience.
-    So you’re going to a wedding and you have to make a speech, but you sure
-    as hell know that you don’t want it to be a boring old speech like you know
-    everyone else is going to make. You want people to remember your speech for
-    the right reasons. As best man, making a memorable speech and making people
-    laugh is how people will remember your performance. Follow these best man
-    speech tips to ensure you get the best result on the day.
+    eye in your audience. Deliver a really, really good speech and you won't be
+    the first best man to get the bridesmaids wet somewhere else too!
+    </p>
     </section>
 
-    <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
 
