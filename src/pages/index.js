@@ -9,7 +9,7 @@ const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
     <img src="https://images.unsplash.com/photo-1498429152472-9a433d9ddf3b?ixlib
-    =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format" alt="Speech" />
+    =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800" alt="Speech" />
     <p>As the best man, you are an essential part of the wedding; it is your
     responsibility to throw the perfect bachelor party, on the morning of the
     wedding you are the one who makes sure the groom is looking sharp, you'll
@@ -45,7 +45,7 @@ const IndexPage = () => (
     the speech goes well on the day.
     </p>
     <img src="https://images.unsplash.com/photo-1481757548536-81a37923e1c9?ixli
-    b=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop" alt="Best Man"/>
+    b=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800" alt="Best Man"/>
     <section class="tips">
     <h1>Best Man Speech Tips</h1>
     <h4><b>Tip 1</b>: Stand up while speaking</h4>
@@ -100,7 +100,7 @@ const IndexPage = () => (
     </p>
     </section>
     <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib
-    =rb-1.2.1&auto=format&fit=crop" alt="Toast"/>
+    =rb-1.2.1&auto=format&fit=crop&w=800" alt="Toast"/>
     <section class="ideas">
     <h5>Longer Speech Ideas</h5>
     <blockquote>Thanks to all of you for coming today and sharing this special
@@ -169,7 +169,7 @@ const IndexPage = () => (
     </div>
     </section>
     <img src="https://images.unsplash.com/photo-1473177027534-53d906e9abcf?ixlib
-    =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop" alt="Groomsmen"/>
+    =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=800" alt="Groomsmen"/>
     <section class="solution">
     <h4>The More Complete Solution</h4>
     <p>If you’ve read this far and still feel lost or overwhelmed, here are
@@ -199,12 +199,6 @@ const IndexPage = () => (
     speech tips to ensure you get the best result on the day.
     </section>
 
-
-
-
-    <div style={{ maxWidth: `300px`, marginBottom: `1.45rem` }}>
-      <Image />
-    </div>
     <Link to="/page-2/">Go to page 2</Link>
   </Layout>
 )
