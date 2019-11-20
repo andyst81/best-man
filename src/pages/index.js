@@ -187,7 +187,7 @@ const IndexPage = () => (
      <input type="hidden" name="bot-field" />
       <label>
         Enter your email below to get a FREE printable version of this page.
-        <br/><input type="email" name="subject" id="subject" />
+        <br/><input type="email" name="email" id="form-email" />
       </label>
       <button type="submit">Send Me</button>
     </form>
