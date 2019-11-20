@@ -12,9 +12,6 @@ import { useStaticQuery, graphql } from "gatsby"
 import Header from "./header"
 import "./layout.css"
 
-import { heart } from 'react-icons/fa';
-
-
 const Layout = ({ children }) => {
   const data = useStaticQuery(graphql`
     query SiteTitleQuery {
@@ -40,7 +37,7 @@ const Layout = ({ children }) => {
       >
         <main>{children}</main>
         <footer>
-          © {new Date().getFullYear()} Built with <heart />
+           <i class="fal fa-copyright"></i> {new Date().getFullYear()} Built with <i class="fas fa-heart" color="red"></i>
           {` and `}
           <a href="https://www.gatsbyjs.org">Gatsby</a>
         </footer>

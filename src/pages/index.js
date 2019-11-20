@@ -1,8 +1,6 @@
 import React from "react"
-import { Link } from "gatsby"
 
 import Layout from "../components/layout"
-import Image from "../components/image"
 import SEO from "../components/seo"
 
 const IndexPage = () => (
@@ -110,15 +108,15 @@ const IndexPage = () => (
     =rb-1.2.1&auto=format&fit=crop&w=960" alt="Toast"/>
     <section class="ideas">
     <h3>Longer Speech Ideas</h3>
-    <i class="fal fa-quote-left"></i><blockquote>Thanks to all of you for coming today and sharing this special
+    <blockquote>Thanks to all of you for coming today and sharing this special
     occasion with Jane and Tom. Tom and I have been friends for years and I am
     so happy to see him marry such a wonderful woman. Ever since Tom met Jane,
     I’ve never seen one without the other. Their love for each other has only
     grown stronger even during tough times. Thank you, Tom, for being such a
     good friend. I wish you and Jane the best of everything as you share long
     and happy lives. Cheers!
-    </blockquote><i class="fal fa-quote-right"></i>
-    <i class="fal fa-quote-left"></i><blockquote>Now it is my great honor and privilege to make the first toast
+    </blockquote>
+    <blockquote>Now it is my great honor and privilege to make the first toast
     to Arnold and Vanessa as husband and wife. While some people know that
     Arnold and I went to high school and college together, few are aware that
     we first met while playing Little League baseball in grade school. Arnold
@@ -134,15 +132,15 @@ const IndexPage = () => (
     But seriously, I think he’s made a much better choice in Vanessa. Let us
     toast them and wish them a long life together filled with love and laughter.
     May their joys be many and their sadnesses few. Congratulations!
-    </blockquote><i class="fal fa-quote-right"></i>
-    <i class="fal fa-quote-left"></i><blockquote>After 25 years of sibling rivalry, you can see that my brother
+    </blockquote>
+    <blockquote>After 25 years of sibling rivalry, you can see that my brother
     has finally figured out who the best man really is. I wish James and
     Jennifer all the best now and forever. As you go through life together,
     always love each other, respect each other and be there for each other.
     Remember to say “I’m sorry” when you mess up and never go to bed angry.
     Separately, you’re both wonderful people, but together you take life to a
     new level. I love you both. Congratulations!
-    </blockquote><i class="fal fa-quote-right"></i>
+    </blockquote>
 
     <h3>Short and Sweet Speech Ideas</h3>
     <p>Even with the help of these free best man speeches, you may be nervous
@@ -183,9 +181,16 @@ const IndexPage = () => (
     two words for you: don’t be. You don’t have to be a world renowned writer
     to write a memorable wedding speech. If you don’t know where to start,
     reread the tips, guidelines and templates above. There should be something
-    to get you inspired. Enter your details below to receive a free printable
-    pdf version of this page for future reference.
+    to get you inspired.
     </p>
+    <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+     <input type="hidden" name="bot-field" />
+      <label>
+        Enter your email below to get a FREE printable version of this page.
+        <br/><input type="email" name="subject" id="subject" />
+      </label>
+      <button type="submit">Send Me</button>
+    </form>
     <p>If that isn't enough, we have a more in depth, 30 page book on how to write
     the perfect best mans's speech. This book is full of jokes, story ideas,
     tips, guidelines, and many more sample speeches and more info on how to
