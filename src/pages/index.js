@@ -1,5 +1,5 @@
 import React from "react"
-
+import { Link } from "gatsby"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 
@@ -32,7 +32,7 @@ const IndexPage = () => (
     your best man speech into something memorable. With these tips, I assure
     you, you won't embarrass yourself in front of the wedding party.
     </p>
-    <p>The ideal wedding speech should be around four minutes. Normally, in
+    <p>The ideal wedding speech should be around five minutes. Normally, in
     addition to the best man’s wedding toast, the father of the bride, the
     groom, and maid of honor give speeches. The father of the bride speech
     should be first. His speech should consist of welcoming the groom to the
@@ -53,15 +53,19 @@ const IndexPage = () => (
     b=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960" alt="Best Man"/>
     <section class="tips">
     <h1>Best Man Speech Tips</h1>
-    <h4><b>Tip 1</b>: Stand up while speaking</h4>
-    <p>Always, always stand up when giving a best man speech or a toast. Make
+    <h4>Dos and Don'ts</h4>
+    <p>Some of them may be obvious, some maybe not, but below you will find a list
+    of dos and don'ts for your speech on the day.</p>
+    <h5><b>Do 1</b>: Stand up while speaking</h5>
+    <p>This one may sound obvious, it's not always obvious to all, so it needs saying.
+    Always, always stand up when giving a best man speech or a toast. Make
     sure you have everybody's attention before you speak. The best way to do
     that is to stand up and wait for them to be quiet. Standing up is the first
     rule of any good public speaking and a wedding is no different. They will
     be expecting your speech and it is often customary to tap the side of your
     glass with a fork to ensure you get everyone’s attention.
     </p>
-    <h4><b>Tip 2</b>: Plan what you want to say</h4>
+    <h5><b>Do 2</b>: Plan what you want to say</h5>
     <p>Never try and wing it on the day. A best man speech needs to be planned and
     written down well in advance. Unless you are a really proficient public
     speaker, you will need to plan to make sure you say everything  that you
@@ -71,14 +75,15 @@ const IndexPage = () => (
     bullet points of all the major parts of the speech on a piece of paper to
     use as a reference tool when necessary.
     </p>
-    <h4><b>Tip 3</b>: Practice makes perfect!</h4>
-    <p>Practice your speech until you know it by heart. There is nothing worse
-    than giving a best man speech and having to look down at your notes every 2
-    words. Also, fidgeting with paper is out! You can discreetly look at your
-    notes from time to time, but don’t be that guy who just reads a multi page
-    speech word for word - we’ve all seen them and we didn’t enjoy their speech!
+    <h5><b>Do 3</b>: Practice</h5>
+    <p>Practice makes perfect! Practice your speech until you know it by heart.
+    There is nothing worse than giving a best man speech and having to look
+    down at your notes every 2 words. Also, fidgeting with paper is out!
+    You can discreetly look at your notes from time to time, but don’t be that
+    guy who just reads a multi page speech word for word - you’ve seen them before
+    and you didn’t enjoy their speech!
     </p>
-    <h4><b>Tip 4</b>: Keep it clean</h4>
+    <h5><b>Do 4</b>: Keep it clean</h5>
     <p>Funny and vulgar are two different things. A lot of people, tend to think
     that to be funny you have to be vulgar and rude and embarrassing, this is
     absolutely not true. If you and the groom have had some wild times together,
@@ -87,27 +92,46 @@ const IndexPage = () => (
     bride - this is totally wrong. Don't mention the time the groom made a fool
     of himself at the strip joint or anything like that.
     </p>
-    <h4><b>Tip 5</b>: Keep it short</h4>
+    <h5><b>Do 5</b>: Keep it short</h5>
     <p>No one wants to be bored for hours with your speech. Make it short and
     to the point and don't forget to add emotion when giving your speech. The
-    wedding isn't about you, it's about the bride and groom.
+    wedding isn't about you, it's about the bride and groom. The ideal best man
+    speech should be between four and six minutes.
     </p>
-    <p>Hopefully these best man speech tips have given you some pointers on
-    what to do when giving your best man speech. If you’re having trouble coming
-    up with your own words, try adapting some of the below best man speech ideas
-    to the situation of your friends who are marrying.
+    <h5><b>Don't 1</b>: Use fancy words</h5>
+    <p>When writing your speech, write it in your own words. Don't use words
+    that you don't usually use in your everyday life. The groom has asked you
+    to be his best man, so make sure it's you who speaks.
     </p>
-    <p>In picking from the selection of speech ideas below, keep in mind the
-    happy couple, their friends and their families. Your goal is to help them
-    start their new life on the right foot without you being the center of
-    attention. Aiming to give a speech that people remember for years after
-    the wedding might not be a good thing.
+    <h5><b>Don't 2</b>: Talk about the former relationships</h5>
+    <p>Do not include or mention the bride or groom's former relationships.
+    There may be some amazingly funny stories that involve their exes, but why
+    take the risk of annoying either of them, or someone else by mentioning an ex
+    partner in the speech?
     </p>
-    </section>
+    <h5><b>Don't 3</b>: Swear too much</h5>
+    <p>This goes hand in hand with the point above about keeping it clean.
+    Avoid cursing and using undesirable words as much as possible. Remember,
+    it's very likely that people's parents, grandparents and even kids will be
+    there on the day, so keep the speech suitable for all.
+    </p>
+    <h5><b>Don't 4</b>: Go overboard with jokes</h5>
+    <p>Do not go overboard with your humor or copy jokes from the internet. Also,
+    avoid excessive inside jokes - many a best man has lost the audience
+    on the day by referencing things that happened on the stag party, or some
+    other event that most people weren't present for. It might be hilarious to
+    you, but it's not likely to be hilarious to all of them.
+    </p>
     <img src="https://images.unsplash.com/photo-1527529482837-4698179dc6ce?ixlib
     =rb-1.2.1&auto=format&fit=crop&w=960" alt="Toast"/>
+    <p>Hopefully these best man speech tips have given you some pointers on
+    what to do when giving your best man speech. If you’re having trouble coming
+    up with your own words, below you will find a few best man speech samples
+    that may help to give you some ideas.
+    </p>
+    </section>
     <section class="ideas">
-    <h3>Longer Speech Ideas</h3>
+    <h5>Longer Speech Ideas</h5>
     <blockquote>Thanks to all of you for coming today and sharing this special
     occasion with Jane and Tom. Tom and I have been friends for years and I am
     so happy to see him marry such a wonderful woman. Ever since Tom met Jane,
@@ -123,7 +147,7 @@ const IndexPage = () => (
     played for the Avondale Americans and I played for their arch rival, the
     Boonetown Buddies. I was pitching during the final game of the season when
     Arnold hit a grand slam home run. He ran the bases like a demon and scored
-    the winning run, crushing my ego for years.
+    the winning run, crushing my ego for years.<br/>
     While that embarrassment was temporary, the positive impression Arnold made
     on me later as a classmate, teammate, roommate and friend will last forever.
     Arnold has always been there for me. He is honest, caring, thoughtful and
@@ -142,7 +166,7 @@ const IndexPage = () => (
     new level. I love you both. Congratulations!
     </blockquote>
 
-    <h3>Short and Sweet Speech Ideas</h3>
+    <h5>Short and Sweet Points</h5>
     <p>Even with the help of these free best man speeches, you may be nervous
     about speaking in front of a crowd. Maybe mixing and matching some of these
     short and sweet best man speeches will help you conquer your stage fright.
@@ -177,31 +201,37 @@ const IndexPage = () => (
     =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960" alt="Groomsmen"/>
     <section class="solution">
     <h4>The More Complete Solution</h4>
-    <p>If you’ve read this far and still feel lost or overwhelmed, here are
-    two words for you: don’t be. You don’t have to be a world renowned writer
-    to write a memorable wedding speech. If you don’t know where to start,
-    reread the tips, guidelines and templates above. There should be something
-    to get you inspired.
-    </p>
-    <form method="post" netlify-honeypot="bot-field" data-netlify="true">
-     <input type="hidden" name="bot-field" />
-      <label>
-        Enter your email below to get a FREE printable version of this page.
-        <br/><input type="email" name="email" id="form-email" />
-      </label>
-      <button type="submit">Send Me</button>
-    </form>
-    <p>If that isn't enough, we have a more in depth, 30 page book on how to write
+    <p>If you’ve read this far and still need some support, don't worry.
+    You don’t have to be a world renowned writer to write a memorable wedding
+    speech. In addition to all the content here, we offer a 30 page book on how to write
     the perfect best mans's speech. This book is full of jokes, story ideas,
     tips, guidelines, and many more sample speeches and more info on how to
-    carry out your best man duties flawlessly.
+    carry out your best man duties flawlessly. For the low cost of $5, you will
+    receive a copy of this book in your email instantly.
+    <Link to="/book/"> Learn more...</Link> or buy now:
     </p>
+    <div class="pp-form">
+      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
+        <input type="hidden" name="cmd" value="_s-xclick" />
+        <input type="hidden" name="hosted_button_id" value="SN3VUDN2FGNT6" />
+        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
+        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="2" height="2" />
+      </form>
+    </div>
     <p>On the day when it's time to stand up and say “I’d like to propose a toast”,
     you’ll be confident. You'll know that you’re about to put a tear in every
     eye in your audience. Deliver a really, really good speech and you won't be
     the first best man to get the bridesmaids wet somewhere else too!
     </p>
     </section>
+    <form method="post" netlify-honeypot="bot-field" data-netlify="true">
+     <input type="hidden" name="bot-field" />
+      <label>
+        Enter your email below to get a FREE printable version of this page.
+        <br/><input type="email" name="email" id="form-email" placeholder="Email address" />
+      </label>
+      <button type="submit">Send Me</button>
+    </form>
 
   </Layout>
 )

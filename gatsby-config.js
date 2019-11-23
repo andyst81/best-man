@@ -26,10 +26,6 @@ module.exports = {
         display: `minimal-ui`,
         icon: `src/images/rings-wedding-solid.svg`, // This path is relative to the root of the site.
       },
-      resolve: 'gatsby-plugin-mailchimp',
-          options: {
-              endpoint: 'https://tips.us18.list-manage.com/subscribe/post?u=83d1424caa4ab5a28e9cb103d&amp;id=beac86b6a9', // add your MC list endpoint here; see instructions below
-          },
     },
     // this (optional) plugin enables Progressive Web App + Offline functionality
     // To learn more, visit: https://gatsby.dev/offline
