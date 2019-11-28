@@ -90,6 +90,10 @@ footer > div > a {
   color: white;
   font-weight: bold;
 }
+footer > div > a:hover {
+  color:white;
+  font-weight: normal;
+}
 .pp-form {
   text-align: center;
 }

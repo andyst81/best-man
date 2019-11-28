@@ -206,24 +206,10 @@ const IndexPage = () => (
     speech. In addition to all the content here, we offer a 30 page book on how to write
     the perfect best mans's speech. This book is full of jokes, story ideas,
     tips, guidelines, and many more sample speeches and more info on how to
-    carry out your best man duties flawlessly. For the low cost of $5, you will
-    receive a copy of this book in your email instantly.
-    <Link to="/book/"> Learn more...</Link> or buy now:
+    carry out your best man duties flawlessly. It will be available very shortly.
+    Enter your email address in the box below to be notified as soon as it's
+    available and get a printable pdf version of this page in the meantime for FREE.
     </p>
-    <div class="pp-form">
-      <form action="https://www.paypal.com/cgi-bin/webscr" method="post" target="_top">
-        <input type="hidden" name="cmd" value="_s-xclick" />
-        <input type="hidden" name="hosted_button_id" value="SN3VUDN2FGNT6" />
-        <input type="image" src="https://www.paypalobjects.com/en_US/i/btn/btn_buynowCC_LG.gif" border="0" name="submit" alt="PayPal - The safer, easier way to pay online!" />
-        <img alt="" border="0" src="https://www.paypalobjects.com/en_GB/i/scr/pixel.gif" width="2" height="2" />
-      </form>
-    </div>
-    <p>On the day when it's time to stand up and say “I’d like to propose a toast”,
-    you’ll be confident. You'll know that you’re about to put a tear in every
-    eye in your audience. Deliver a really, really good speech and you won't be
-    the first best man to get the bridesmaids wet somewhere else too!
-    </p>
-    </section>
     <form method="post" netlify-honeypot="bot-field" data-netlify="true">
      <input type="hidden" name="bot-field" />
       <label>
@@ -232,6 +218,14 @@ const IndexPage = () => (
       </label>
       <button type="submit">Send Me</button>
     </form>
+
+    <p>On the day when it's time to stand up and say “I’d like to propose a toast”,
+    you’ll be confident. You'll know that you’re about to put a tear in every
+    eye in your audience. Deliver a really, really good speech and you won't be
+    the first best man to get the bridesmaids wet somewhere else too!
+    </p>
+    </section>
+
 
   </Layout>
 )
