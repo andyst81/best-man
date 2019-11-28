@@ -25,7 +25,6 @@ const Layout = ({ children }) => {
 
   return (
     <>
-    <script src="https://kit.fontawesome.com/763c737add.js" crossorigin="anonymous"></script>
       <Header siteTitle={data.site.siteMetadata.title} />
       <div
         style={{
@@ -36,12 +35,22 @@ const Layout = ({ children }) => {
         }}
       >
         <main>{children}</main>
-        <footer>
-           <i class="fal fa-copyright"></i> {new Date().getFullYear()} Built with <i class="fas fa-heart" color="red"></i>
-          {` and `}
-          <a href="https://www.gatsbyjs.org">Gatsby</a>
-        </footer>
       </div>
+      <footer style={{
+        background: `#9b4dca`,
+    }}>
+      <div style={{
+                margin: `0 auto`,
+                maxWidth: 960,
+                padding: `1.45rem`,
+                color: `white`,
+
+              }}
+            >
+         <i class="fal fa-copyright"></i> {new Date().getFullYear()} Built with <i class="fas fa-heart" color="red"></i>
+        {` and `}
+        <a href="https://www.gatsbyjs.org">Gatsby</a></div>
+      </footer>
     </>
   )
 }
