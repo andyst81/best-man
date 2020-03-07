@@ -32,7 +32,7 @@ svg:not(:root) {
   overflow: hidden;
 }
 html {
-  font-size: 1em;
+  font-size: 0.85em;
   box-sizing: border-box;
   overflow-y: scroll;
 }
@@ -87,12 +87,11 @@ li > p {
   margin-bottom: calc(1.45rem / 2);
 }
 footer > div > a {
-  color: white;
+  color: #363636;
   font-weight: bold;
 }
 footer > div > a:hover {
-  color:white;
-  font-weight: normal;
+  color: #9b4dca;
 }
 .pp-form {
   text-align: center;

@@ -6,8 +6,8 @@ import SEO from "../components/seo"
 const IndexPage = () => (
   <Layout>
     <SEO title="Home" />
-    <img src="https://images.unsplash.com/photo-1498429152472-9a433d9ddf3b?ixlib
-    =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960" alt="Speech" />
+    <img src="https://images.unsplash.com/photo-1515934751635-c81c6bc9a2d8?ixlib
+    =%20rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960&q=80" alt="Rings" />
     <p>So you’re going to a wedding and you have to make a speech, but you sure
     as hell know that you don’t want it to be a boring old speech like you know
     everyone else is going to make. You want people to remember your speech for
@@ -32,6 +32,8 @@ const IndexPage = () => (
     your best man speech into something memorable. With these tips, I assure
     you, you won't embarrass yourself in front of the wedding party.
     </p>
+    <img src="https://images.unsplash.com/photo-1498429152472-9a433d9ddf3b?ixlib
+    =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960" alt="Speech" />
     <p>The ideal wedding speech should be around five minutes. Normally, in
     addition to the best man’s wedding toast, the father of the bride, the
     groom, and maid of honor give speeches. The father of the bride speech
@@ -98,6 +100,8 @@ const IndexPage = () => (
     wedding isn't about you, it's about the bride and groom. The ideal best man
     speech should be between four and six minutes.
     </p>
+    <img src="https://images.unsplash.com/photo-1515444029923-60569d238ec5?ixlib
+    =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960&q=80" alt="Stop" />
     <h5><b>Don't 1</b>: Use fancy words</h5>
     <p>When writing your speech, write it in your own words. Don't use words
     that you don't usually use in your everyday life. The groom has asked you
@@ -165,7 +169,8 @@ const IndexPage = () => (
     Separately, you’re both wonderful people, but together you take life to a
     new level. I love you both. Congratulations!
     </blockquote>
-
+    <img src="https://images.unsplash.com/photo-1473177027534-53d906e9abcf?ixlib
+    =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960" alt="Groomsmen"/>
     <h5>Short and Sweet Points</h5>
     <p>Even with the help of these free best man speeches, you may be nervous
     about speaking in front of a crowd. Maybe mixing and matching some of these
@@ -197,32 +202,27 @@ const IndexPage = () => (
     </ul>
     </div>
     </section>
-    <img src="https://images.unsplash.com/photo-1473177027534-53d906e9abcf?ixlib
-    =rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=960" alt="Groomsmen"/>
     <section class="solution">
-    <h4>The More Complete Solution</h4>
+    <h4>Conclusion</h4>
     <p>If you’ve read this far and still need some support, don't worry.
     You don’t have to be a world renowned writer to write a memorable wedding
-    speech. In addition to all the content here, we offer a 30 page book on how to write
-    the perfect best mans's speech. This book is full of jokes, story ideas,
-    tips, guidelines, and many more sample speeches and more info on how to
-    carry out your best man duties flawlessly. It will be available very shortly.
-    Enter your email address in the box below to be notified as soon as it's
-    available and get a printable pdf version of this page in the meantime for FREE.
+    speech. At the end of the day, the key point to every successful best man
+    speech is to talk from the heart and be genuine.</p>
+    <p> If you'd like to receive a printable pdf version of this page for FREE,
+    jus enter your email address in the box below and it'll be sent over to you.
     </p>
     <form method="post" netlify-honeypot="bot-field" data-netlify="true">
      <input type="hidden" name="bot-field" />
       <label>
-        Enter your email below to get a FREE printable version of this page.
+        Enter your email  to get a FREE printable version of this page.
         <br/><input type="email" name="email" id="form-email" placeholder="Email address" />
       </label>
       <button type="submit">Send Me</button>
     </form>
 
-    <p>On the day when it's time to stand up and say “I’d like to propose a toast”,
-    you’ll be confident. You'll know that you’re about to put a tear in every
-    eye in your audience. Deliver a really, really good speech and you won't be
-    the first best man to get the bridesmaids wet somewhere else too!
+    <p>On the day when it's time to stand up and say “I’d like to propose a toast
+    to the happy couple”, just be confident and you'll know that you’re about to
+    put a tear in every eye in your audience.
     </p>
     </section>
 
