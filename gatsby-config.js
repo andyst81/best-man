@@ -18,8 +18,8 @@ module.exports = {
     {
       resolve: `gatsby-plugin-manifest`,
       options: {
-        name: `gatsby-starter-default`,
-        short_name: `starter`,
+        name: `best-man-speech-tips`,
+        short_name: `best-man`,
         start_url: `/`,
         background_color: `#663399`,
         theme_color: `#663399`,
